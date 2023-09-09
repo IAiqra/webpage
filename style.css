@@ -1,0 +1,65 @@
+.container{
+	width:99%;
+	height:100vh;
+	background-color:lightgray;
+}
+.row{
+	display:flex;
+}
+.logo{
+	width:10vw;
+	height:auto;
+}
+.logo img{
+	margin-top:2vh;
+	margin-left:2vw;	
+}
+.heading{
+	width:89%;
+	text-align: center;
+}
+.heading h1{
+	font-size:50px;
+}
+.navbar{
+	width:99%;
+	justify-content:center;
+	display:flex;
+
+}
+.navbar .link{
+	margin-left:3vw;
+	color:blue;
+	font-size:3vh;
+}
+.menu{
+	width:20vw;
+	border:5px solid gray;
+	height:70vh;
+	margin-left:2vh;
+	border-radius:4%;
+}
+.content{
+	width:75vw;
+	height:10vh;
+	margin:2vh;
+	
+}
+.content .row1 .img img{
+	width:20vw;
+	height:30vh;
+}
+.content .row1{
+	display:flex;
+
+}
+.content .row1 .text{
+	margin:1vw;
+}
+.copyright{
+	width:99%;
+	text-align:center;
+	margin-top:3vh;
+}
+
+
